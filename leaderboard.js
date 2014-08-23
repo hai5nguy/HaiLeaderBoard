@@ -44,6 +44,6 @@ if (Meteor.isServer) {
       for (var i = 0; i < names.length; i++)
         Players.insert({name: names[i], score: Math.floor(Random.fraction()*10)*5});
     }
-      Players.insert({name: 'Hai Nagooyen', score: -5});
+      //Players.insert({name: 'Hai Nagooyen', score: -5});
   });
 }
